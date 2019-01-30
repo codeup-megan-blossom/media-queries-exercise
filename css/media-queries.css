@@ -53,3 +53,33 @@ img {
 h2{
     margin-bottom: 30px;
 }
+footer {
+    margin: 0 20px;
+}
+
+@media screen and (min-width:992px) {
+    .alert-info {
+        display: none;
+    }
+    li {
+        background: none;
+        text-align: none;
+        font-size: 1.2em;
+        display: inline-block;
+        padding: 0;
+
+    }
+    ul {
+        float: right;
+        margin: 60px 20px;
+    }
+    h1 {
+        font-size: 3.8em;
+        float: left;
+        margin: 40px 20px;
+    }
+    img {
+        width: 1280px;
+        height: 500px;
+    }
+}
