@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: helvetica neue;
+    }
+
+.alert-info {
+    background-color: #d6fefe;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 35px 40px;
+    text-align: center;
+    font-size: .8em;
+}
+
+div>a:link{
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7em;
+    margin: 0 auto 80px auto;
+}
+li {
+    background: #ccc;
+    list-style: none;
+    text-align: center;
+    font-size: .8em;
+    margin: 20px;
+    padding: 35px 40px;
+}
