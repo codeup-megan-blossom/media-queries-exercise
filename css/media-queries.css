@@ -7,6 +7,7 @@
 }
 body{
     font-family: helvetica neue;
+    /*height: 100%;*/
     }
 
 .alert-info {
@@ -16,6 +17,7 @@ body{
     padding: 35px 40px;
     text-align: center;
     font-size: .8em;
+
 }
 
 div>a:link{
@@ -56,14 +58,20 @@ h2{
 footer {
     margin: 0 20px;
 }
+#social-media-links {
+
+}
+
+
+
 
 @media screen and (min-width:992px) {
     .alert-info {
         display: none;
     }
     li {
-        background: none;
-        text-align: none;
+        background: unset;
+        text-align: unset;
         font-size: 1.2em;
         display: inline-block;
         padding: 0;
